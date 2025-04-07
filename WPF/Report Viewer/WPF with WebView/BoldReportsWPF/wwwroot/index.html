@@ -1,0 +1,34 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bold Reports Viewer</title>
+    <!-- Report Viewer component styles -->
+    <link href="https://cdn.boldreports.com/8.1.1/content/v2.0/tailwind-light/bold.report-viewer.min.css" rel="stylesheet" />
+
+    <!-- Report Viewer component dependent script -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdn.boldreports.com/8.1.1/scripts/v2.0/common/bold.reports.common.min.js"></script>
+    <script src="https://cdn.boldreports.com/8.1.1/scripts/v2.0/common/bold.reports.widgets.min.js"></script>
+
+    <!-- Report Viewer component script -->
+    <script src="https://cdn.boldreports.com/8.1.1/scripts/v2.0/bold.report-viewer.min.js"></script>
+</head>
+<body>
+    <div id="viewer-container" style="width: 100%; height: 100vh;"></div>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            $("#viewer-container").boldReportViewer({
+                reportServiceUrl: "http://localhost:5223/api/report",
+                reportPath: "/product-line-sales.rdl",
+                toolbarSettings: {
+                    showToolbar: true,
+                    items: ej.ReportViewer.ToolbarItems.All
+                }
+            });
+        });
+    </script>
+</body>
+</html>

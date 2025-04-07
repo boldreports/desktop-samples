@@ -1,0 +1,117 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\desktop-samples\\WPF\\Report Viewer\\WPF with WebView\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F88874EA-F023-82B7-3F44-155A7F911EC9}|BoldReportsWPF\\BoldReportsWPF.csproj|d:\\desktop-samples\\wpf\\report viewer\\wpf with webview\\boldreportswpf\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F88874EA-F023-82B7-3F44-155A7F911EC9}|BoldReportsWPF\\BoldReportsWPF.csproj|solutionrelative:boldreportswpf\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F88874EA-F023-82B7-3F44-155A7F911EC9}|BoldReportsWPF\\BoldReportsWPF.csproj|d:\\desktop-samples\\wpf\\report viewer\\wpf with webview\\boldreportswpf\\wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F88874EA-F023-82B7-3F44-155A7F911EC9}|BoldReportsWPF\\BoldReportsWPF.csproj|solutionrelative:boldreportswpf\\wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F88874EA-F023-82B7-3F44-155A7F911EC9}|BoldReportsWPF\\BoldReportsWPF.csproj|d:\\desktop-samples\\wpf\\report viewer\\wpf with webview\\boldreportswpf\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F88874EA-F023-82B7-3F44-155A7F911EC9}|BoldReportsWPF\\BoldReportsWPF.csproj|solutionrelative:boldreportswpf\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3808C316-41D0-4FB9-84C6-860D07F8BC26}|BoldReportsAPI\\BoldReportsAPI.csproj|d:\\desktop-samples\\wpf\\report viewer\\wpf with webview\\boldreportsapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3808C316-41D0-4FB9-84C6-860D07F8BC26}|BoldReportsAPI\\BoldReportsAPI.csproj|solutionrelative:boldreportsapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3808C316-41D0-4FB9-84C6-860D07F8BC26}|BoldReportsAPI\\BoldReportsAPI.csproj|d:\\desktop-samples\\wpf\\report viewer\\wpf with webview\\boldreportsapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{3808C316-41D0-4FB9-84C6-860D07F8BC26}|BoldReportsAPI\\BoldReportsAPI.csproj|solutionrelative:boldreportsapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3808C316-41D0-4FB9-84C6-860D07F8BC26}|BoldReportsAPI\\BoldReportsAPI.csproj|d:\\desktop-samples\\wpf\\report viewer\\wpf with webview\\boldreportsapi\\reportsapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3808C316-41D0-4FB9-84C6-860D07F8BC26}|BoldReportsAPI\\BoldReportsAPI.csproj|solutionrelative:boldreportsapi\\reportsapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "index.html",
+              "DocumentMoniker": "D:\\desktop-samples\\WPF\\Report Viewer\\WPF with WebView\\BoldReportsWPF\\wwwroot\\index.html",
+              "RelativeDocumentMoniker": "BoldReportsWPF\\wwwroot\\index.html",
+              "ToolTip": "D:\\desktop-samples\\WPF\\Report Viewer\\WPF with WebView\\BoldReportsWPF\\wwwroot\\index.html",
+              "RelativeToolTip": "BoldReportsWPF\\wwwroot\\index.html",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAvwBcAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-03-04T06:13:22.374Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\desktop-samples\\WPF\\Report Viewer\\WPF with WebView\\BoldReportsAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "BoldReportsAPI\\appsettings.json",
+              "ToolTip": "D:\\desktop-samples\\WPF\\Report Viewer\\WPF with WebView\\BoldReportsAPI\\appsettings.json",
+              "RelativeToolTip": "BoldReportsAPI\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-04T06:53:32.918Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\desktop-samples\\WPF\\Report Viewer\\WPF with WebView\\BoldReportsAPI\\Program.cs",
+              "RelativeDocumentMoniker": "BoldReportsAPI\\Program.cs",
+              "ToolTip": "D:\\desktop-samples\\WPF\\Report Viewer\\WPF with WebView\\BoldReportsAPI\\Program.cs",
+              "RelativeToolTip": "BoldReportsAPI\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-04T06:13:14.543Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "D:\\desktop-samples\\WPF\\Report Viewer\\WPF with WebView\\BoldReportsWPF\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "BoldReportsWPF\\MainWindow.xaml",
+              "ToolTip": "D:\\desktop-samples\\WPF\\Report Viewer\\WPF with WebView\\BoldReportsWPF\\MainWindow.xaml",
+              "RelativeToolTip": "BoldReportsWPF\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-04T06:12:08.222Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "D:\\desktop-samples\\WPF\\Report Viewer\\WPF with WebView\\BoldReportsWPF\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "BoldReportsWPF\\MainWindow.xaml.cs",
+              "ToolTip": "D:\\desktop-samples\\WPF\\Report Viewer\\WPF with WebView\\BoldReportsWPF\\MainWindow.xaml.cs",
+              "RelativeToolTip": "BoldReportsWPF\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-07T07:26:27.422Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ReportsAPIController.cs",
+              "DocumentMoniker": "D:\\desktop-samples\\WPF\\Report Viewer\\WPF with WebView\\BoldReportsAPI\\ReportsAPIController.cs",
+              "RelativeDocumentMoniker": "BoldReportsAPI\\ReportsAPIController.cs",
+              "ToolTip": "D:\\desktop-samples\\WPF\\Report Viewer\\WPF with WebView\\BoldReportsAPI\\ReportsAPIController.cs",
+              "RelativeToolTip": "BoldReportsAPI\\ReportsAPIController.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAgwF8AAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-04T06:12:22.331Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

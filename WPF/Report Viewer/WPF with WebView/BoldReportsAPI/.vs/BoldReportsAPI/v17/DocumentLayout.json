@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\MahendranShanmugam\\BoldReportsAPI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8BFB1D5B-F407-4588-D849-F315847A0624}|BoldReportsAPI.csproj|c:\\users\\mahendranshanmugam\\boldreportsapi\\reportsapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8BFB1D5B-F407-4588-D849-F315847A0624}|BoldReportsAPI.csproj|solutionrelative:reportsapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8BFB1D5B-F407-4588-D849-F315847A0624}|BoldReportsAPI.csproj|c:\\users\\mahendranshanmugam\\boldreportsapi\\boldreportsapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{8BFB1D5B-F407-4588-D849-F315847A0624}|BoldReportsAPI.csproj|solutionrelative:boldreportsapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8BFB1D5B-F407-4588-D849-F315847A0624}|BoldReportsAPI.csproj|c:\\users\\mahendranshanmugam\\boldreportsapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8BFB1D5B-F407-4588-D849-F315847A0624}|BoldReportsAPI.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\MahendranShanmugam\\BoldReportsAPI\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\MahendranShanmugam\\BoldReportsAPI\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-27T12:47:04.944Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ReportsAPIController.cs",
+              "DocumentMoniker": "C:\\Users\\MahendranShanmugam\\BoldReportsAPI\\ReportsAPIController.cs",
+              "RelativeDocumentMoniker": "ReportsAPIController.cs",
+              "ToolTip": "C:\\Users\\MahendranShanmugam\\BoldReportsAPI\\ReportsAPIController.cs",
+              "RelativeToolTip": "ReportsAPIController.cs",
+              "ViewState": "AgIAAFEAAAAAjKXgR9rzv18AAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-27T12:17:49.881Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BoldReportsAPI",
+              "DocumentMoniker": "C:\\Users\\MahendranShanmugam\\BoldReportsAPI\\BoldReportsAPI.csproj",
+              "RelativeDocumentMoniker": "BoldReportsAPI.csproj",
+              "ToolTip": "C:\\Users\\MahendranShanmugam\\BoldReportsAPI\\BoldReportsAPI.csproj",
+              "RelativeToolTip": "BoldReportsAPI.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-02-27T12:17:01.218Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
