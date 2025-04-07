@@ -142,85 +142,22 @@
     <Content Include="Assets\Wide310x150Logo.scale-200.png" />
 	<EmbeddedResource Include="BoldLicense.txt" />
   </ItemGroup>
-  <ItemGroup>
-    <Reference Include="Bold.Licensing">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\Common\Assemblies for Universal Windows\10.0\Bold.Licensing.dll</HintPath>
-    </Reference>
-    <Reference Include="Syncfusion.Licensing">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\Common\Assemblies for Universal Windows\10.0\Syncfusion.Licensing.dll</HintPath>
-    </Reference>
-    <Reference Include="Syncfusion.DocIO.UWP">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\Common\Assemblies for Universal Windows\10.0\Syncfusion.DocIO.UWP.dll</HintPath>
-    </Reference>
-    <Reference Include="Syncfusion.OfficeChart.UWP">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\Common\Assemblies for Universal Windows\10.0\Syncfusion.OfficeChart.UWP.dll</HintPath>
-    </Reference>
-    <Reference Include="Syncfusion.Pdf.UWP">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\Common\Assemblies for Universal Windows\10.0\Syncfusion.Pdf.UWP.dll</HintPath>
-    </Reference>
-    <Reference Include="Syncfusion.SfCellGrid.UWP">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\Common\Assemblies for Universal Windows\10.0\Syncfusion.SfCellGrid.UWP.dll</HintPath>
-    </Reference>
-    <Reference Include="Syncfusion.SfChart.UWP">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\Common\Assemblies for Universal Windows\10.0\Syncfusion.SfChart.UWP.dll</HintPath>
-    </Reference>
-    <Reference Include="Syncfusion.SfGauge.UWP">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\Common\Assemblies for Universal Windows\10.0\Syncfusion.SfGauge.UWP.dll</HintPath>
-    </Reference>
-    <Reference Include="Syncfusion.SfGridCommon.UWP">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\Common\Assemblies for Universal Windows\10.0\Syncfusion.SfGridCommon.UWP.dll</HintPath>
-    </Reference>
-    <Reference Include="Syncfusion.SfInput.UWP">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\Common\Assemblies for Universal Windows\10.0\Syncfusion.SfInput.UWP.dll</HintPath>
-    </Reference>
-    <Reference Include="Syncfusion.SfMaps.UWP">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\Common\Assemblies for Universal Windows\10.0\Syncfusion.SfMaps.UWP.dll</HintPath>
-    </Reference>
-    <Reference Include="BoldReports.UWP">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\Common\Assemblies for Universal Windows\10.0\BoldReports.UWP.dll</HintPath>
-    </Reference>
-    <Reference Include="Syncfusion.SfShared.UWP">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\Common\Assemblies for Universal Windows\10.0\Syncfusion.SfShared.UWP.dll</HintPath>
-    </Reference>
-    <Reference Include="Syncfusion.SfTreeNavigator.UWP">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\Common\Assemblies for Universal Windows\10.0\Syncfusion.SfTreeNavigator.UWP.dll</HintPath>
-    </Reference>
-    <Reference Include="Syncfusion.XlsIO.UWP">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\Common\Assemblies for Universal Windows\10.0\Syncfusion.XlsIO.UWP.dll</HintPath>
-    </Reference>
-    <Reference Include="Syncfusion.Presentation.UWP">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\Common\Assemblies for Universal Windows\10.0\Syncfusion.Presentation.UWP.dll</HintPath>
-    </Reference>
+ <ItemGroup>
+    <PackageReference Include="BoldReports.UWP">
+      <Version>8.1.1</Version>
+    </PackageReference>
+    <PackageReference Include="System.Runtime">
+      <Version>4.3.1</Version>
+    </PackageReference>
+    <PackageReference Include="Microsoft.NETCore.UniversalWindowsPlatform">
+      <Version>6.2.2</Version>
+    </PackageReference>	
   </ItemGroup>
   <ItemGroup>
     <ApplicationDefinition Include="App.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-  </ItemGroup>
-  <ItemGroup>
-    <PackageReference Include="Microsoft.NETCore.UniversalWindowsPlatform">
-      <Version>6.2.2</Version>
-    </PackageReference>
-    <PackageReference Include="Newtonsoft.Json">
-      <Version>13.0.1</Version>
-    </PackageReference>		
   </ItemGroup>
   <ItemGroup>
     <Page Include="ReportViewerPage.xaml">
