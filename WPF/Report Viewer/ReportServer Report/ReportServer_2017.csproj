@@ -67,6 +67,7 @@
     <Reference Include="BoldReports.WPF, Version=8.1462.1.0, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89, processorArchitecture=MSIL">
       <HintPath>packages\BoldReports.WPF.8.1.1\lib\net462\BoldReports.WPF.dll</HintPath>
     </Reference>
+	  <Reference Include="Newtonsoft.Json" />
     <Reference Include="Syncfusion.Chart.WPF, Version=28.2462.3.0, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89, processorArchitecture=MSIL">
       <HintPath>packages\Syncfusion.Chart.WPF.Classic.28.2.3\lib\net462\Syncfusion.Chart.WPF.dll</HintPath>
     </Reference>
