@@ -9,7 +9,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-	<PackageReference Include="BoldReports.WPF" Version="7.1.9" />
+	<PackageReference Include="BoldReports.WPF" Version="8.1.1" />
 
   </ItemGroup>
 
