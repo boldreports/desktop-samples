@@ -34,36 +34,45 @@ namespace ReportServer_Report
 
         private void MainPage_Loaded(object sender, RoutedEventArgs e)
         {
-            this.ReportViewer.ReportServiceURL = @"https://on-premise-demo.boldreports.com/reporting/reportservice/api/Viewer/";
-            this.ReportViewer.ReportServerUrl = @"https://on-premise-demo.boldreports.com/reporting/api/site/site1";
-            this.ReportViewer.ServiceAuthorizationToken = GenerateToken("guest@boldreports.com", "Guest123@BoldReports!");
+            ReportViewer.ReportServiceURL = "https://on-premise-demo.boldreports.com/reporting/reportservice/api/Viewer";
+            ReportViewer.ReportServerUrl = "https://on-premise-demo.boldreports.com/reporting/api/site/site1";
+            ReportViewer.ServiceAuthorizationToken = GenerateToken("guest@boldreports.com", "Guest123@BoldReports!");
 
-            this.ReportViewer.ReportServiceRequestBegin += (sen, arg) =>
+            ReportViewer.ReportServiceRequestBegin += (s, args) =>
             {
-                arg.HttpClient.DefaultRequestHeaders.Add("serverurl", "https://on-premise-demo.boldreports.com/reporting/api/site/site1");
+                if (!args.HttpClient.DefaultRequestHeaders.Contains("serverurl"))
+                {
+                    args.HttpClient.DefaultRequestHeaders.Add("serverurl", "https://on-premise-demo.boldreports.com/reporting/api/site/site1");
+                }
             };
 
-            this.ReportViewer.ReportPath = @"/Tutorial Sample/Hyperlink";
-            this.ReportViewer.RefreshReport();
+            ReportViewer.ReportPath = "/Tutorial Sample/Hyperlink";
+            ReportViewer.RefreshReport();
         }
 
         public string GenerateToken(string userName, string password)
         {
             using (var client = new HttpClient())
             {
-                client.DefaultRequestHeaders.Accept.Clear();
-
                 var content = new FormUrlEncodedContent(new[]
                 {
-                new KeyValuePair<string, string>("grant_type", "password"),
-                new KeyValuePair<string, string>("username", userName),
-                new KeyValuePair<string, string>("password", password)
-                  });
+                    new KeyValuePair<string, string>("grant_type", "password"),
+                    new KeyValuePair<string, string>("username", userName),
+                    new KeyValuePair<string, string>("password", password)
+                });
 
-                var result = client.PostAsync("https://on-premise-demo.boldreports.com/reporting/api/site/site1/token", content).Result;
-                string resultContent = result.Content.ReadAsStringAsync().Result;
+                var response = client.PostAsync("https://on-premise-demo.boldreports.com/reporting/api/site/site1/token", content).Result;
+
+                if (!response.IsSuccessStatusCode)
+                {
+                    // Optional: log or throw exception if you want to debug issues
+                    throw new Exception($"Token request failed: {response.StatusCode} - {response.ReasonPhrase}");
+                }
+
+                var resultContent = response.Content.ReadAsStringAsync().Result;
                 var token = JsonConvert.DeserializeObject<Token>(resultContent);
-                return token.token_type + " " + token.access_token;
+
+                return $"{token.token_type} {token.access_token}";
             }
         }
     }
