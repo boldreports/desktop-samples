@@ -11,7 +11,7 @@
     <AssemblyName>IndicatorReport</AssemblyName>
     <DefaultLanguage>en-US</DefaultLanguage>
     <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
-    <TargetPlatformVersion Condition=" '$(TargetPlatformVersion)' == '' ">10.0.16299.0</TargetPlatformVersion>
+    <TargetPlatformVersion Condition=" '$(TargetPlatformVersion)' == '' ">10.0.19041.0</TargetPlatformVersion>
     <TargetPlatformMinVersion>10.0.16299.0</TargetPlatformMinVersion>
     <MinimumVisualStudioVersion>14</MinimumVisualStudioVersion>
     <FileAlignment>512</FileAlignment>
@@ -140,7 +140,7 @@
     <Content Include="Assets\Square44x44Logo.targetsize-24_altform-unplated.png" />
     <Content Include="Assets\StoreLogo.png" />
     <Content Include="Assets\Wide310x150Logo.scale-200.png" />
-	<EmbeddedResource Include="BoldLicense.txt" />
+    <EmbeddedResource Include="BoldLicense.txt" />
   </ItemGroup>
   <ItemGroup>
     <ApplicationDefinition Include="App.xaml">
@@ -148,16 +148,16 @@
       <SubType>Designer</SubType>
     </ApplicationDefinition>
   </ItemGroup>
- <ItemGroup>
-        <PackageReference Include="BoldReports.UWP">
-      <Version>8.1.1</Version>
+  <ItemGroup>
+    <PackageReference Include="BoldReports.UWP">
+      <Version>13.1.26</Version>
     </PackageReference>
     <PackageReference Include="System.Runtime">
       <Version>4.3.1</Version>
     </PackageReference>
     <PackageReference Include="Microsoft.NETCore.UniversalWindowsPlatform">
       <Version>6.2.2</Version>
-    </PackageReference>	
+    </PackageReference>
   </ItemGroup>
   <ItemGroup>
     <Page Include="ReportViewerPage.xaml">
