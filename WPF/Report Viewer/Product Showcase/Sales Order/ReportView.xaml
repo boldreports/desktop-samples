@@ -1,0 +1,25 @@
+﻿<Window x:Class="BoldReports.Samples.ReportView"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:BoldReports="clr-namespace:BoldReports.UI.Xaml;assembly=BoldReports.Wpf"
+    xmlns:sync="clr-namespace:Syncfusion.Windows.Shared;assembly=Syncfusion.Shared.WPF"
+    xmlns:local="clr-namespace:BoldReports.Samples.ViewModel"
+    xmlns:localUtil="clr-namespace:BoldReports.Samples.Util"
+    Title="Sales Order" WindowStartupLocation="CenterScreen" SnapsToDevicePixels="True" WindowState="Maximized" Icon="App.ico">
+
+    <Window.DataContext>
+        <local:ReportViewModel/>
+    </Window.DataContext>
+
+    <Grid Name="gridSkeleton" localUtil:EventAttachUtil.AddWindowLoaded="True">
+        <!--Control place holder panel-->
+
+        <Border Name="groupBoxReportViewer" BorderThickness="0" >
+            <Grid>
+                <!-- Adding Report Viewer control-->
+                <BoldReports:ReportViewer Name="viewer" ReportPath="{Binding Path=Report.ReportPath}" />
+            </Grid>
+        </Border>
+    </Grid>
+</Window>
+
